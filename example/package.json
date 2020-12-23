@@ -1,7 +1,7 @@
 {
-  "name": "standard-vue-ts-example",
+  "name": "standard-react-ts-example",
   "version": "1.0.0",
-  "description": "standardjs with vue",
+  "description": "standardjs with react",
   "scripts": {
     "lint": "eslint src --ext .js,.ts",
     "lint:fix": "eslint src --ext .js,.ts --fix"
@@ -9,6 +9,6 @@
   "author": "yuuangzhang",
   "license": "ISC",
   "devDependencies": {
-    "eslint-config-standard-vue-ts": "^1.0.0"
+    "eslint-config-standard-react-ts": "^1.0.0"
   }
 }
