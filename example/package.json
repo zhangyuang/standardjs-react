@@ -1,0 +1,14 @@
+{
+  "name": "standard-vue-ts-example",
+  "version": "1.0.0",
+  "description": "standardjs with vue",
+  "scripts": {
+    "lint": "eslint src --ext .js,.ts",
+    "lint:fix": "eslint src --ext .js,.ts --fix"
+  },
+  "author": "yuuangzhang",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-standard-vue-ts": "^1.0.0"
+  }
+}
