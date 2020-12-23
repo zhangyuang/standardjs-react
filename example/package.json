@@ -9,6 +9,9 @@
   "author": "yuuangzhang",
   "license": "ISC",
   "devDependencies": {
-    "eslint-config-standard-react-ts": "^1.0.0"
+    "eslint-config-standard-react-ts": "^1.0.1"
+  },
+  "dependencies": {
+    "typescript": "^4.1.3"
   }
 }
