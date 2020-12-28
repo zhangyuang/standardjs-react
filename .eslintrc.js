@@ -12,6 +12,7 @@ module.exports = {
     '@typescript-eslint/no-dynamic-delete': 'off',
     '@typescript-eslint/no-misused-promises': 'off',
     '@typescript-eslint/no-floating-promises': 'off',
-    '@typescript-eslint/no-non-null-assertion': 'off'
+    '@typescript-eslint/no-non-null-assertion': 'off',
+    '@typescript-eslint/no-unnecessary-type-assertion': 'off'
   }
 }
