@@ -1,7 +1,15 @@
+const { existsSync } = require('fs')
+const { resolve } = require('path')
+
+const hasLintJson = existsSync(resolve(__dirname, '../../tsconfig.lint.json'))
+const project = hasLintJson ? resolve(__dirname, '../../tsconfig.lint.json') : resolve(__dirname, '../../tsconfig.json')
 module.exports = {
   extends: ['standard-with-typescript', 'plugin:react-hooks/recommended'],
   parserOptions: {
-    project: './tsconfig.json'
+    parser: '@typescript-eslint/parser',
+    project,
+    extraFileExtensions: ['.vue'],
+    createDefaultProgram: true
   },
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
