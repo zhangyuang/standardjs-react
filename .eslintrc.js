@@ -1,8 +1,8 @@
 const { existsSync } = require('fs')
 const { resolve } = require('path')
 
-const hasLintJson = existsSync(resolve(__dirname, '../../tsconfig.lint.json'))
-const project = hasLintJson ? resolve(__dirname, '../../tsconfig.lint.json') : resolve(__dirname, '../../tsconfig.json')
+const hasLintJson = existsSync(resolve(process.cwd(), './tsconfig.lint.json'))
+const project = hasLintJson ? resolve(process.cwd(), './tsconfig.lint.json') : resolve(process.cwd(), './tsconfig.json')
 module.exports = {
   extends: ['standard-with-typescript', 'plugin:react-hooks/recommended'],
   parserOptions: {
