@@ -25,6 +25,7 @@ module.exports = {
     '@typescript-eslint/consistent-type-assertions': 'off',
     'import/export': 'off',
     '@typescript-eslint/dot-notation': ['off'],
-    'padded-blocks': ['off']
+    'padded-blocks': ['off'],
+    'react-hooks/rules-of-hooks': ['off']
   }
 }
